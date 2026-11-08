@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card_wraper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin-top: 50px;
+  width: 600px;
+  border-radius: 10px;
+  background-color: rgba(247, 232, 232, 0.687);
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 56px 28px rgba(0, 0, 0, 0.1);
+}
+.imgCard img {
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.card_content h5 {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: blueviolet;
+}
+.card_content h3 {
+  font-weight: 700;
+  font-size: 55px;
+  text-align: center;
+}
+.card_content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(226, 30, 30, 0.331);
+  width: 263px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.deshbord {
+  width: 600px;
+  margin-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.common {
+  border-right: 1px solid rgba(55, 52, 52, 0.515);
+  width: 200px;
+  background-color: aqua;
+  position: relative;
+}
+.read span {
+  position: absolute;
+  left: 110px;
+  bottom: 46px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.common h5 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.common h6 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.comment {
+  border-bottom-right-radius: 10px;
+}
+.read {
+  border-bottom-left-radius: 10px;
+}
