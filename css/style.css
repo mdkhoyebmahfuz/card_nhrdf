@@ -55,6 +55,7 @@
   justify-content: space-around;
 }
 .common {
+    padding: 20px;
   border-right: 1px solid rgba(55, 52, 52, 0.515);
   width: 200px;
   background-color: aqua;
@@ -63,7 +64,7 @@
 .read span {
   position: absolute;
   left: 110px;
-  bottom: 46px;
+  bottom: 59px;
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -75,7 +76,7 @@
   text-align: center;
 }
 .common h6 {
-  font-size: 30px;
+  font-size: 23px;
   color: white;
   font-weight: 600;
   text-align: center;
@@ -86,3 +87,4 @@
 .read {
   border-bottom-left-radius: 10px;
 }
+
